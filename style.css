@@ -15,6 +15,7 @@ body {
   /* make images flexible */
   img {
     max-width: 100%;
+    display: flex;
   }
   a {
     color: #59331d;
@@ -40,7 +41,7 @@ body {
   }
   /* max width on the image in pixels */
   nav .logo img {
-    max-width: 150px;
+    max-width: 100%;
   }
   /* flex basis on the image container, li */
   nav .logo {
